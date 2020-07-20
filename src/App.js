@@ -8,22 +8,24 @@ class App extends Component{
     super();
     
     this.state = {
-      string:' Hello World DJ'
+      monsters: [
+        {
+          name: 'Frankenstein'
+        },
+        {
+          name: 'Dracula'
+        },
+        {
+          name: 'Zombie'
+        },
+      ]
     }
   }
 
   render(){
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-            <p>{this.state.string}</p>
-          </p>
-          <button onClick={() =>this.setState({string: `Hello DJ, Changing the Set State`})}>Change Text</button>
-          
-        </header>
+        
       </div>
     );
   }
