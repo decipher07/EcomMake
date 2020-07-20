@@ -29,8 +29,5 @@ class App extends Component{
   }
 }
 
-// function App() {
-
-// }
 
 export default App;
