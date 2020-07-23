@@ -2,7 +2,7 @@ import React from 'react'
 
 import './menu-item.styles.scss'
 
-const MenuItem = ({title, imageUrl, size }) => (
+const MenuItem = ({title, imageUrl, size     }) => (
     <div 
         style={
             {backgroundImage: `url(${imageUrl})`}
