@@ -2,8 +2,12 @@
     width: 30% ;
     display: flex;
     flex-direction: column;
-
+    
     .title{
-        margin: 10px 0px;
+        margin: 20px 0px;
+    }
+
+    .changes{
+        float: left;
     }
 }
