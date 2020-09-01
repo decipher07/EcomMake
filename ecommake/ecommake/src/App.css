@@ -9,3 +9,7 @@ a {
     color: #0cdd52;
     text-decoration: floralwhite;
 }
+
+* {
+    box-sizing: border-box;
+}
